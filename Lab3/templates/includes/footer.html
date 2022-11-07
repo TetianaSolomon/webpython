@@ -1,0 +1,19 @@
+{% block footer %}
+<div class="text-center text-lg-start bg-light text-muted navbar fixed-bottom">
+
+    <table class="table">
+        <tr>
+            <td>Operating System</td>
+            <td>{{operating_system}}</td>
+        </tr>
+        <tr>
+            <td>User agent</td>
+            <td>{{user_agent}}</td>
+        </tr>
+        <tr>
+            <td>Current time</td>
+            <td>{{time}}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}
